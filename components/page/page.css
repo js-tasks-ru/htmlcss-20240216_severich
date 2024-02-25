@@ -1,0 +1,24 @@
+header {
+  padding: 96px 160px;
+  line-height: 64px;
+  font-weight: 500;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  min-height: 1036px;
+  background-color: #F9FAFC;
+}
+
+footer {
+  text-align: center;
+  padding: 136px 0;
+}
+
+footer p {
+  max-width: 640px;
+  margin: auto;
+}
