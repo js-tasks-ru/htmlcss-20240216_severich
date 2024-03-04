@@ -1,11 +1,11 @@
 /* Стилизация кнопки */
 
 .button {
-  width: 189px;
+  font-family: 'Roboto', arial, helvetica, sans-serif;
   height: 48px;
-  border-radius: 10px;
+  border-radius: 8px;
   text-align: center;
-  padding: 10px;
+  padding: 15px 15px 14px;
   line-height: 18.75px;
   font-size: 16px;
   color: var(--white);
@@ -19,7 +19,7 @@
 }
 
 .button:disabled {
-  cursor: not-allowed;
+  pointer-events: none;
   opacity: 0.5;
 }
 
