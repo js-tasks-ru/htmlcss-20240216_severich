@@ -1,0 +1,36 @@
+.historgram {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+}
+
+.historgram__total-orders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.historgram__total-orders-link {
+  color: var(--blue-2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.historgram__count {
+  font-size: 20px;
+  margin: 0 0 39px 0;
+}
+
+.historgram__chart {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  gap: 1px;
+}
+
+.historgram__rectangle {
+  height: 50px;
+  background-color: var(--blue-2);
+}
