@@ -17,6 +17,10 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --skeleton-grey-1: #E2E6E8;
+    --skeleton-grey-2: #F3F5F5;
+    --skeleton-grey-3: #E3E7EA;
 }
 
 * {

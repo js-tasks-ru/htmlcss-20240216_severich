@@ -1,0 +1,42 @@
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid var( --grey-2);
+  border-radius: 8px;
+}
+
+.skeleton__first-row {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.skeleton__circle {
+  display: flex;
+  border-radius: 50%; 
+  background-color: var(--grey-2);
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+}
+
+.skeleton__rows-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.skeleton__row {
+  height: 20px;
+  background: linear-gradient(92.51deg,  var(--grey-2)6.44%, var(--skeleton-grey-1) 38.47%, var(--skeleton-grey-2) 56.48%, var( --skeleton-grey-3) 77.5%,  var(--grey-2) 102.52%);
+}
+
+.skeleton__row_small {
+  max-width: 172px;
+}
+
+.skeleton__row_medium {
+  max-width: 257px;
+}
