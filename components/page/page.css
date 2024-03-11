@@ -1,0 +1,29 @@
+.header {
+  padding: 96px 160px;
+}
+
+.header__title {
+  margin: 0;
+  line-height: 64px;
+  font-weight: 500;
+}
+
+.body {
+  min-height: 1036px;
+  background-color: #F9FAFC;
+}
+
+.footer {
+  text-align: center;
+  padding: 136px 0;
+}
+
+.footer__title {
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.footer__description {
+  max-width: 640px;
+  margin: auto;
+}
