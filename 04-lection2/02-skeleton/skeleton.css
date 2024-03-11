@@ -1,7 +1,7 @@
 .skeleton {
   display: flex;
   flex-direction: column;
-  padding: 24px;
+  padding: 24px 40px 24px 32px;
   border: 1px solid var( --grey-2);
   border-radius: 8px;
 }
@@ -34,9 +34,9 @@
 }
 
 .skeleton__row_small {
-  max-width: 172px;
+  max-width: 30%;
 }
 
 .skeleton__row_medium {
-  max-width: 257px;
+  max-width: 45%;
 }
