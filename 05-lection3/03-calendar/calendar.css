@@ -1,11 +1,9 @@
 .calendar {
-  display: block;
-  margin: 0 auto;
   align-items: center;
   border-radius: 6px;
   border: 1px solid var(--grey-3);
   max-width: 304px;
-  padding: 28px 30px 40px;
+  padding: 28px 26px 32px;
   text-align: center;
 }
 
@@ -38,23 +36,23 @@
   font-weight: 400;
 }
 
-.calendar__date-date {
+.calendar__date_date {
   padding: 8px 10px;
 }
 
-.calendar__date span:first-child {
+.calendar__date_date:first-child {
   grid-column: 5;
 }
 
-.calendar__date span:nth-child(18),
-.calendar__date span:nth-child(23) {
+.calendar__date_date:nth-child(18),
+.calendar__date_date:nth-child(23) {
   background-color: var(--blue-2);
   color: var(--white);
 }
 
-.calendar__date span:nth-child(19),
-.calendar__date span:nth-child(20),
-.calendar__date span:nth-child(21),
-.calendar__date span:nth-child(22) {
+.calendar__date_date:nth-child(19),
+.calendar__date_date:nth-child(20),
+.calendar__date_date:nth-child(21),
+.calendar__date_date:nth-child(22) {
   background-color: var(--purple-2);
 }
