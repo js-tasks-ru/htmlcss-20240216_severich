@@ -1,0 +1,38 @@
+.modal__btn {
+  position: absolute;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;;
+  background-color: var(--blue-2);
+  border-radius: 8px;
+  border-color: transparent;
+  cursor: pointer;
+  padding: 15px 50px;
+}
+
+.modal__wrapper {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--grey-modal);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__popup {
+  position: relative;
+  max-width: 428px;
+  max-height: 294px;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 30px 40px;
+  margin: auto
+}
+
+.modal__popup_close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
