@@ -17,8 +17,9 @@
   background-color: var(--blue-2);
   color: var(--grey-2);
   white-space: nowrap;
-  top: calc(20% + 15px);
-  transform: translateX(40%);
+  bottom: calc(100% + 8px);
+  left: 50%; 
+  transform: translateX(-50%);
 }
 
 .tooltip__bubble:before {
@@ -29,10 +30,6 @@
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-}
-
-.tooltip__icon {
-  margin: 100px 0 0 100px;
 }
 
 .tooltip__icon:hover ~ .tooltip__bubble {
