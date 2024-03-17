@@ -40,19 +40,16 @@
   padding: 8px 10px;
 }
 
-.calendar__date_date:first-child {
+.calendar__date_start-month {
   grid-column: 5;
 }
 
-.calendar__date_date:nth-child(18),
-.calendar__date_date:nth-child(23) {
+.calendar__date_range-start,
+.calendar__date_range-end {
   background-color: var(--blue-2);
   color: var(--white);
 }
 
-.calendar__date_date:nth-child(19),
-.calendar__date_date:nth-child(20),
-.calendar__date_date:nth-child(21),
-.calendar__date_date:nth-child(22) {
+.calendar__date_range {
   background-color: var(--purple-2);
 }
