@@ -1,0 +1,10 @@
+.avatar {
+  width: 116px;
+  height: 116px;
+}
+
+.avatar__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
